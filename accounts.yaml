@@ -1,0 +1,34 @@
+# Domain registrars
+namecheap:
+  email: danielmweibel@gmail.com
+  account-name: w5dio
+porkbun:
+  email: danielmweibel@gmail.com
+  account-name: w5dio
+
+# DNS
+cloudflare:
+  email: danielmweibel@gmail.com
+  account-name: w5dio
+
+# Version control
+github:
+  email: danielmweibel@gmail.com
+
+# Email sending
+smtp2go:
+  email: admin@w5d.io
+
+# Cloud providers
+aws:
+  email: danielmweibel@gmail.com
+gcp:
+  email: danielmweibel@gmail.com
+azure:
+  email: danielmweibel@gmail.com
+
+# Social/profiles
+medium:
+  email: danielmweibel@gmail.com
+linkedin:
+  email: danielmweibel@gmail.com
