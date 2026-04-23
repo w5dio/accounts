@@ -1,31 +1,53 @@
-namecheap:
+namecheap:  # temporary (to be eventually deleted)
   name: Namecheap
   email: danielmweibel@gmail.com
-  account: w5dio
+  containers:
+    - w5dio
 porkbun:
   name: Porkbun
   email: danielmweibel@gmail.com
-  account: w5dio
+  containers:
+    - w5dio  # organise domains by labels (weibeld, w5dlabs, etc.)
 cloudflare:
   name: Cloudflare
   email: danielmweibel@gmail.com
-  account: w5dio
+  containers:
+    - w5dio  # all DNS settings are always only done through w5d.io (e.g. Platypus)
+smtp2go:  # check if needed at all or using alternative solution (e.g. AWS SES) for email sending
+  name: SMTP2GO
+  email: admin@w5d.io
 github:
   name: GitHub
   email: danielmweibel@gmail.com
+  containers:
+    - weibeld
+    - w5dio
+    - w5dlabs
 aws:
   name: AWS
   email: danielmweibel@gmail.com
+  containers:
+    - w5dio  # AWS resources of Platypus services, and SES setup for email sending would live here
+    - weibeld
+    - w5dlabs
 gcp:
   name: Google Cloud
   email: danielmweibel@gmail.com
+  containers:
+    - w5dio
+    - weibeld
+    - w5dlabs
 azure:
   name: Azure
   email: danielmweibel@gmail.com
-terraform:
+  containers:
+    - w5dio
+    - weibeld
+    - w5dlabs
+hcp-terraform:
   name: HCP Terraform
   email: danielmweibel@gmail.com
-  account: w5dio  # organisation name
-smtp2go:
-  name: SMTP2GO
-  email: admin@w5d.io
+  containers:
+    - w5dio
+    - weibeld
+    - w5dlabs
